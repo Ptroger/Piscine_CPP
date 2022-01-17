@@ -88,6 +88,26 @@ void	Account::displayStatus( void ) const{
 void	Account::_displayTimestamp( void )
 {
 	std::cout << "[19920104_091532]" ;
+
+//	time_t current_time = time(NULL);
+//const struct tm *format_time = localtime(&current_time);
+//std::cout << "[" << format_time->tm_year + 1900 ;
+//if (format_time->tm_mon + 1 < 10)
+//	std::cout << "0";
+//std::cout << format_time->tm_mon + 1 ;
+//if (format_time->tm_mday + 1 < 10)
+//	std::cout << "0";
+//std::cout << format_time->tm_mday << "_";
+//if (format_time->tm_hour < 10)
+//	std::cout << "0";
+//std::cout << format_time->tm_hour ;
+//if (format_time->tm_min < 10)
+//	std::cout << "0";
+//std::cout << format_time->tm_min ;
+//if (format_time->tm_sec < 10)
+//	std::cout << "0";
+//std::cout << format_time->tm_sec << "]";
+return ;
 }
 
 int	Account::getNbAccounts( void ){
